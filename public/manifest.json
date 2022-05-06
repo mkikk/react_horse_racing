@@ -1,0 +1,13 @@
+{
+  "short_name": "Horse race",
+  "name": "Internship test assignment of horse race competition front end",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [{
+    "src": "favicon.ico",
+    "sizes": "64x64 32x32 128x128",
+    "tpye": "image/x-icon"
+  }]
+}

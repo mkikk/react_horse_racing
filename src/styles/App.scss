@@ -1,0 +1,83 @@
+* {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+select {
+  min-width: 15vw;
+}
+h2 {
+  margin:3vh;
+}
+h3 {
+  margin: 2vh;
+}
+button, .btn {
+  min-width: 10vw;
+  margin: 1.5vw;
+  padding: 10px;
+  background-color: #660698;
+  color: #F5F5F5;
+  border-radius: 5px;
+}
+button:hover, .btn:hover {
+  cursor: pointer;
+  background-color: #8411c2;
+}
+
+button:disabled {
+  background-color: #c074e9;
+}
+.header {
+  margin-top: 7vh;
+  flex-direction: column;
+  display:flex;
+  align-items: center;  
+}
+
+.raceForm {
+
+  width: 75vw;
+  border-top: #28323b 2px solid;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  label {
+    padding: 5px;
+
+    text-align: left;
+
+    input {
+      margin: 5px;
+      width: 25vw;
+      
+    }
+  }
+}
+
+.betList {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap:15px;
+}
+
+.bet {
+  padding: 10px;
+  min-height: 10vh;
+  border: #660698 2px solid;
+  border-radius: 25px;
+}
+.raceList {
+  margin: 15px;
+}
+
+.errorNotEnoughHorses {
+  background-color: rgb(252, 109, 109);
+}

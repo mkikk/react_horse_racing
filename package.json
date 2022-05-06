@@ -1,0 +1,44 @@
+{
+  "name": "horse_race",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.51.0",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build:watch": "react-scripts build --watch",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watch --verbose",
+    "eject": "react-scripts eject",
+    "runApp": "yarn build && yarn start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^14.1.1",
+    "jest": "^28.0.3",
+    "prop-types": "^15.8.1",
+    "react-select": "^5.3.1"
+  }
+}
